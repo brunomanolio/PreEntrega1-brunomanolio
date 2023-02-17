@@ -42,6 +42,38 @@ switch(metodoPago){
         break;
 }
 
+//enumerar las facturas de insumos
+console.log("-----------Cantidad de Facturas-----------")
+for(let facturas=1; facturas<=10; facturas+=1){
+    if(facturas===5){
+        break;
+    }
+    console.log("Factura Numero " + facturas)
+}   
+
+
+// cuantas facturas de insumos
+console.log("----------Monto Facturas-----------")
+let montofactura = 10
+
+while (montofactura<100){
+    console.log("El monto es " + montofactura)
+    montofactura +=20;
+}
+
+// sumar dos facturas
+console.log("----------Monto total de Facturas:------------")
+let factura1 = 100
+let factura2 = 100
+let factura3 = 50 
+
+let sumarfacturas = function(){
+    console.log(factura1+factura2+factura3)
+}
+
+sumarfacturas()
+
+
 
 
 
